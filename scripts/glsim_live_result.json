@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "name": "deploy_defaults",
+      "ok": true,
+      "detail": "stats={'admin': '0x11a2cC3EEF9270Fa5698F17E4853F9316B6f8a9E', 'check_count': 0, 'liquid': 0, 'no_pool': 0, 'thin': 0, 'total_disputes': 0, 'total_entries': 0, 'ttl_checks': 1000}",
+      "seconds": null
+    },
+    {
+      "name": "wbnb_live_liquid",
+      "ok": true,
+      "detail": "verdict=liquid bucket=liquid pair=0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae",
+      "seconds": 17.4
+    },
+    {
+      "name": "goatt_live_no_pool",
+      "ok": true,
+      "detail": "verdict=no_pool bucket=none",
+      "seconds": 1.9
+    },
+    {
+      "name": "brianpepe_live_thin",
+      "ok": true,
+      "detail": "verdict=thin bucket=thin pair=0xb989dbdd6df5ec86b80659e19483cd5362dd8394 usd_obs=1.09",
+      "seconds": 1.7
+    },
+    {
+      "name": "nouny_live_thin",
+      "ok": true,
+      "detail": "verdict=thin bucket=thin usd_obs=0.54",
+      "seconds": 1.8
+    }
+  ],
+  "contract_address": "0x07e01768c9bdfcb7c061a5dd9ce4e3d8a52e4b7f",
+  "stats": {
+    "admin": "0x11a2cC3EEF9270Fa5698F17E4853F9316B6f8a9E",
+    "check_count": 4,
+    "liquid": 1,
+    "no_pool": 1,
+    "thin": 2,
+    "total_disputes": 0,
+    "total_entries": 4,
+    "ttl_checks": 1000
+  }
+}
